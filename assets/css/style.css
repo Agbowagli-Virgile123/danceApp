@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   font-family: 'Rubik', sans-serif;
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+   outline: none; 
+   border:none;
+}
+
+.navbar-default{
+  background: #922bc0;
+  margin-bottom: 0px;
+} 
+
+
+.navbar-brand{
+  margin-left: 10px !important;
+}
+
+.navbar-header{
+  width: 80%;
+}
+
+.menubar{
+  display: inline-block;
+  margin-top: 15px;
+  float: none;
+}
+
+
+.menubar li{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.menubar li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.menubar li a:hover{
+  border-bottom: 2px solid #ccc;
+
+}
+
+.navbar-right a{
+    font-size: 14px;
+}
+
+
+.sidebar-list a span{
+  width: 16px;
+}
+
+.active{
+  background-color: #9c69df !important;
+  color: #fff !important;
+}
+
+a .nav-item{
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  border: 1px solid rgba(0,0,0,.125);
+  background-color: #922bc0;
+  color: #e7e7e7;
+  font-weight: 350;
+}
+
+a .nav-item span{
+  text-transform: uppercase !important;
+}
+
+a .nav-item:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: #9c69df;
+}
+
+.message{
+  border: 1px solid #343434;
+  margin: 15px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+
+.instructors,.students,.enrolled,.dance_forms{
+  width: 25%;
+  padding: 25px 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+.instructors{
+  background: #fa7070;
+}
+
+.students{
+  background: #d9c67b;
+}
+
+.enrolled{
+  background: #b1e7af;
+}
+
+.dance_forms{
+  background: #a1c298;
+}
+
+
+.admin span{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer{
+  background: #922bc0;
+  padding: 5px;
+}
+
+.footer p{
+  text-align: center;
+  color: #fff;
+}
+
+.enrollBox{
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: -webkit-fill-available;
+  padding: 15px;
+}
